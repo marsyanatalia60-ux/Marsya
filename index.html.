@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBmSnhQT15F5l-QgjgR7QOX5E1_ehGRJJU",
+  authDomain: "dashboard-marsya.firebaseapp.com",
+  projectId: "dashboard-marsya",
+  storageBucket: "dashboard-marsya.firebasestorage.app",
+  messagingSenderId: "210178158134",
+  appId: "1:210178158134:web:9b5e4b462243f8acbd7297",
+  measurementId: "G-0PB5G84GST"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
